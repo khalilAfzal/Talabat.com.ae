@@ -466,3 +466,19 @@ footer {
         padding: 10px;
     }
 }
+.fa-facebook{
+    color: #2596be;
+}
+.fa-instagram{
+    color: #ec05d5;
+}
+.fa-twitter{
+    color: #1d9bf0;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-twitch{
+    color: #9146ff;
+    lighting-color: #9146ff;
+}
