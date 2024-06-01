@@ -71,7 +71,7 @@ ody, html {
 
 
 .parallax {
-    background-image: url('images/parallax-background.jpg'); /* Path to your background image */
+    background-image: url('images/parallax-background.jpg');
     height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -350,7 +350,7 @@ form button:hover {
     padding: 10px;
     border-radius: 5px;
 }
-/* General styles */
+
 body, html {
     margin: 0;
     padding: 0;
