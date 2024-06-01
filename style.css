@@ -17,14 +17,18 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+   
 }
 
 header .logo {
     font-size: 24px;
     font-weight: bold;
     animation: fadeInLeft 1s ease-in-out;
+    color: white;
 }
-
+header .logo-link{
+    text-decoration: none;
+}
 header nav ul {
     list-style: none;
     display: flex;
