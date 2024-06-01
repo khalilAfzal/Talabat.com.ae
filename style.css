@@ -66,13 +66,80 @@ header nav ul li.login a:hover {
 main {
     padding: 20px;
 }
+.reviews-container {
+    width: 90%;
+    margin: 20px auto;
+    font-family: 'Fortnite', sans-serif;
+}
 
+.heading {
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 36px;
+}
+
+.review-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.reviewer-info i {
+    font-size: 40px;
+    color: #61dafb;
+}
+
+.reviewer-info h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #555;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+    margin-left: auto;
+}
+
+.rating i {
+    color: #ffbf00;
+    font-size: 18px;
+}
+
+.review-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
 .restaurant-section h1 {
     font-size: 24px;
     margin-bottom: 10px;
     animation: fadeInDown 1s ease-in-out;
 }
+.review-card{
+    align-items: center;
+    text-align: center;
 
+}
+.reviewer-info{
+    text-align: center;
+   align-items: center;
+    color: black;
+}
 .search-bar {
     margin-bottom: 20px;
     animation: fadeInDown 1s ease-in-out;
